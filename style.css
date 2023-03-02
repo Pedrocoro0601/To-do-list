@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://orig00.deviantart.net/dad8/f/2015/305/b/0/mario_gif_by_ivanrussiansky-d9f6x59.png");
+    background-image: url("https://images6.alphacoders.com/860/thumb-1920-860645.png");
   /*  background-position: top;
     background-repeat: no-repeat; */
     background-size:  100%;
@@ -13,6 +13,56 @@ body {
     flex-direction: column;
     align-items: center;
     
+}
+
+.cano{
+    position: absolute;
+    width: 100px;
+	left: 200px;
+    bottom: 15px;
+}
+
+.mario{
+    position: absolute;
+    width: 100px;
+	left: 200px;
+    bottom: 130px;
+}
+
+.yoshi{
+    position: absolute;
+    width: 60px;
+	left: 1260px;
+    bottom: 460px;
+}
+
+.luigi{
+    position: absolute;
+    width: 150px;
+	left: 400px;
+    bottom: 13px;
+}
+
+.bowser{
+    position: absolute;
+    width: 150px;
+	left: 1328px;
+    bottom: 240px;
+}
+
+.princesa{
+    position: absolute;
+    width: 100px;
+	left: 1080px;
+    bottom: 10px;
+}
+
+
+h1 img{
+	position: absolute;
+    width: 50px;
+	left: 829px;
+    bottom: 665px;
 }
 
 h1{
