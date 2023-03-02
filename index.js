@@ -11,6 +11,7 @@ function toca(){
     audio.play()
 }
 */
+
 var botao = new Audio("audio/moeda.mp3");
 var bowser = new Audio("audio/bowser.wav")
 var princesa = new Audio("audio/princesa.wav")
@@ -37,6 +38,7 @@ btnaddtarefa.addEventListener("click", () => {
         listatarefa.appendChild(li);
         inputTarefa.value = "";
         botao.play();
+        
         coin.style.animation = "moedasobe 0.5s";
         setTimeout(() => { coin.style.animation = "" }, 350)
 

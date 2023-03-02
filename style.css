@@ -87,7 +87,21 @@ h1{
     left: 50px;
 }
 
+.nuvem2{
+    width: 100px;
+    position: absolute;
+    top: 78px;
+    left: 150px;
+    z-index: -1;
+}
 
+.nuvem3{
+    width: 100px;
+    position: absolute;
+    top: 78px;
+    left: 1180px;
+   
+}
 
 .green{
     color: green;
